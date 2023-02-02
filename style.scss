@@ -2,4 +2,21 @@ $font-body: 'Varela Round', sans-serif;
 
 body {
     font: 100% $font-body;
+    color: white;
+    background-color: rgb(17, 0, 255);
+    #nav-bar {
+        #navbar-content {
+            margin-left: 5vw;
+            #logo {
+                max-width: 100px;
+                align-items: left;
+            }
+
+            .nav-links {
+                text-decoration-style: none;
+                display: flex;
+            }
+        }    
+    }
+
 }
